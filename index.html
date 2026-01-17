@@ -2,9 +2,449 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Abel Berhane</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Abel Berhane — IT Graduate & Web Developer. Portfolio showcasing projects, skills, and experience.">
+  <meta property="og:title" content="Abel Berhane — Portfolio">
+  <meta property="og:description" content="IT Graduate & Web Developer. Explore my projects and skills.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://abel-berhane-web.github.io/abel-portfolio/">
+  <meta property="og:image" content="https://abel-berhane-web.github.io/abel-portfolio/preview.png">
+
+  <title>Abel Berhane — Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <h1>Hello, GitHub</h1>
+  <div class="code-symbols"></div>
+
+  <!-- ===== BACKGROUND PATTERN (GRID) ===== -->
+  <div class="bg-pattern"></div>
+
+  <!-- ===== BACKGROUND SHAPES ===== -->
+  <div class="bg-shapes">
+    <span class="shape shape1"></span>
+    <span class="shape shape2"></span>
+    <span class="shape shape3"></span>
+  </div>
+
+  <!-- ===== SCROLL POINTER ===== -->
+  <div class="scroll-pointer">
+    <i class="fas fa-chevron-down"></i>
+  </div>
+
+  <!-- ===== HEADER ===== -->
+i want you to make my name and the othe theme button make bot of them at the corner make there margin to go opposite corner side finishi it in this inline css  <header class="main-header">
+    <div class="wrapper">
+      <div class="logo">
+        <i class="fa-solid fa-a"></i>
+        <div class="logo-text">Abel<span>Berhane</span></div>
+      </div>
+
+      <nav class="main-nav">
+        <div class="togglebtn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <ul class="navlinks">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          
+<li  class="theme-toggle-container">
+            <button class="theme-toggle">
+              <i class="fa-solid fa-moon"></i>
+            </button>
+          </li>
+          
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO / HOME ===== -->
+  <section class="hero-section" id="home">
+    <div class="wrapper">
+      <div class="hero-content">
+        <!-- Image on LEFT side -->
+        <div class="hero-visual">
+          <div class="hero-image-container">
+            <img src="abel.jpg" alt="Abel Berhane" class="hero-image">
+            <div class="image-glow"></div>
+            <div class="tech-icons">
+              <div class="tech-icon">
+                <i class="fab fa-html5"></i>
+              </div>
+              <div class="tech-icon">
+                <i class="fab fa-css3-alt"></i>
+              </div>
+              <div class="tech-icon">
+                <i class="fab fa-js"></i>
+              </div>
+              <div class="tech-icon">
+                <i class="fab fa-react"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Content on RIGHT side -->
+        <div class="hero-text" >
+          
+          <h5>Hello, I'm <span class="input"></span></h5>
+          <h1 class="hero-title">Abel <span class="highlight">Berhane</span></h1>
+          <p class="hero-description">
+            Crafting digital experiences with clean code & modern design. 
+            I build responsive web applications and intuitive mobile solutions.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#" class="btn btn-primary">
+              <i class="fas fa-download"></i> Download CV
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fas fa-phone"></i> contact me
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            
+            <div class="stat">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Satisfaction</span>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about-section reveal">
+    <div class="wrapper">
+      <div class="section-header">
+        <span class="section-subtitle">Get To Know Me</span>
+        <h2 class="section-title">About <span class="highlight">Me</span></h2>
+      </div>
+
+      <div class="about-container">
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm an <strong>Information Technology graduate</strong> passionate about creating 
+              digital solutions that make a difference. With expertise in both 
+              frontend and backend technologies, I build applications that are 
+              not only functional but also deliver exceptional user experiences.
+            </p>
+            <p>
+              My journey in tech started with curiosity and has evolved into 
+              a passion for solving real-world problems through code. I believe 
+              in continuous learning and staying updated with the latest 
+              industry trends.
+            </p>
+          </div>
+
+          <div class="about-skills">
+            <h3>My Skills</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <span class="skill-name">Web Development</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Mobile Development</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">UI/UX Design</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 75%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Problem Solving</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section projects-section reveal">
+    <div class="wrapper">
+      <div class="section-header">
+        <span class="section-subtitle">My Work</span>
+        <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+      </div>
+
+      <div class="projects-container">
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h3 class="project-title">Maintenance Request System</h3>
+            <p class="project-description">
+              A comprehensive university-based maintenance tracking system with 
+              real-time updates and reporting capabilities.
+            </p>
+            <div class="tech-tags">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">PHP</span>
+              <span class="tech-tag">MySQL</span>
+            </div>
+            <a href="#" class="project-link">
+              View Details <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3 class="project-title">Exit Exam Prep App</h3>
+            <p class="project-description">
+              Android application designed to help university students prepare 
+              for exit exams with practice questions and progress tracking.
+            </p>
+            <div class="tech-tags">
+              <span class="tech-tag">Kotlin</span>
+              <span class="tech-tag">Android</span>
+              <span class="tech-tag">Firebase</span>
+            </div>
+            <a href="#" class="project-link">
+              View Details <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3 class="project-title">Portfolio Website</h3>
+            <p class="project-description">
+              Modern, responsive portfolio website showcasing personal brand 
+              with dark/light mode and smooth animations.
+            </p>
+            <div class="tech-tags">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <a href="#" class="project-link">
+              View Details <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact-section reveal">
+    <div class="wrapper">
+      <div class="section-header">
+        <span class="section-subtitle">Get In Touch</span>
+        <h2 class="section-title">Contact <span class="highlight">Me</span></h2>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Email</h3>
+                <p>abelabeberhane1993@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-social">
+              <h3>Connect With Me</h3>
+              <div class="social-links">
+                <a href="https://github.com/Abel-Berhane-web" target="_blank" class="social-link">
+                  <i class="fab fa-github"></i>
+                  <span>GitHub</span>
+                </a>
+                <a href="https://t.me/Aton_B" target="_blank" class="social-link">
+                  <i class="fab fa-telegram"></i>
+                  <span>Telegram</span>
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank" class="social-link">
+                  <i class="fab fa-linkedin"></i>
+                  <span>LinkedIn</span>
+                </a>
+                 <!-- Phone link added here -->
+      <a href="tel:+251965342290" class="social-link">
+        <i class="fas fa-phone"></i>
+        <span>+251 965 342 290</span>
+      </a>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required class="form-input">
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Your Email" required class="form-input">
+            </div>
+            <div class="form-group">
+              <textarea name="message" placeholder="Your Message" required class="form-textarea"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Typed.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+
+  <!-- Main JS -->
+  <script>
+    // Mobile nav toggle - FIXED CLOSING FUNCTIONALITY
+    const toggleBtn = document.querySelector('.togglebtn');
+    const navLinks = document.querySelector('.navlinks');
+
+    toggleBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      toggleBtn.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking a link
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        toggleBtn.classList.remove('active');
+      });
+    });
+
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.main-nav') && navLinks.classList.contains('open')) {
+        navLinks.classList.remove('open');
+        toggleBtn.classList.remove('active');
+      }
+    });
+
+    // Typed text
+    new Typed('.input', {
+      strings: ['Web Developer', 'Mobile Developer', 'Problem Solver', 'UI Designer'],
+      typeSpeed: 100,
+      backSpeed: 70,
+      loop: true
+    });
+
+    // Reveal on scroll
+    const reveals = document.querySelectorAll('.reveal');
+
+    function revealOnScroll() {
+      reveals.forEach(section => {
+        const top = section.getBoundingClientRect().top;
+        if (top < window.innerHeight - 100) {
+          section.classList.add('active');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', revealOnScroll);
+    revealOnScroll();
+
+    // Theme toggle - Move button to right corner in mobile
+    const toggle = document.querySelector('.theme-toggle');
+    toggle.addEventListener('click', () => {
+      document.body.classList.toggle('light');
+      const icon = toggle.querySelector('i');
+      if (document.body.classList.contains('light')) {
+        icon.classList.remove('fa-moon');
+        icon.classList.add('fa-sun');
+      } else {
+        icon.classList.remove('fa-sun');
+        icon.classList.add('fa-moon');
+      }
+    });
+
+    // Scroll pointer animation
+    const scrollPointer = document.querySelector('.scroll-pointer');
+    
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        scrollPointer.style.opacity = '0';
+        scrollPointer.style.visibility = 'hidden';
+      } else {
+        scrollPointer.style.opacity = '1';
+        scrollPointer.style.visibility = 'visible';
+      }
+    });
+
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+        
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop - 80,
+            behavior: 'smooth'
+          });
+          
+          // Close mobile menu if open
+          navLinks.classList.remove('open');
+          toggleBtn.classList.remove('active');
+        }
+      });
+    });
+
+    // Sticky header
+    const header = document.querySelector('.main-header');
+    
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        header.classList.add('sticky');
+      } else {
+        header.classList.remove('sticky');
+      }
+    });
+  </script>
+
 </body>
 </html>
